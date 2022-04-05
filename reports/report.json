@@ -1,0 +1,364 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4998100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the network",
+            "match": {
+              "location": "stepDefinition.PreCondition.checkTheNetwork()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the excel",
+            "match": {
+              "location": "stepDefinition.PreCondition.verifyTheExcel()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-01T20:35:00.561Z",
+        "line": 9,
+        "name": "validate login feature of Django with proper credentials",
+        "description": "",
+        "id": "validate-the-login-for-django-page;validate-login-feature-of-django-with-proper-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 190946500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Login.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5271961400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.Login.openTheBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1935263900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "enter the url \"https://djangovinoth.pythonanywhere.com/labhome/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://djangovinoth.pythonanywhere.com/labhome/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.Login.enterTheUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 895340400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "click the login link",
+            "match": {
+              "location": "stepDefinition.Login.clickTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176888900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "enter the username \"SELVAAMOJO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELVAAMOJO\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Login.enterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat stepDefinition.Login.enterThePassword(Login.java:89)\r\n\tat ✽.enter the password \"SELVAM@1995\"(file:///C:/Users/SELVAAMOJO/eclipse-workspace/G1_ScreenShot/src/test/resources/Login.feature:15)\r\n",
+              "duration": 4000200,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "enter the password \"SELVAM@1995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELVAM@1995\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Login.enterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "click the login button",
+            "match": {
+              "location": "stepDefinition.Login.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1998700,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "verify login success or not",
+            "match": {
+              "location": "stepDefinition.Login.verifyLoginSuccessOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@ValidLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "check the network",
+            "match": {
+              "location": "stepDefinition.PreCondition.checkTheNetwork()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify the excel",
+            "match": {
+              "location": "stepDefinition.PreCondition.verifyTheExcel()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-01T20:35:09.325Z",
+        "line": 21,
+        "name": "validate login feature of Django with inproper credentials",
+        "description": "",
+        "id": "validate-the-login-for-django-page;validate-login-feature-of-django-with-inproper-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 187882800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.Login.TearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2603957700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "open the browser \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinition.Login.openTheBrowser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2622218400,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "enter the url \"https://djangovinoth.pythonanywhere.com/labhome/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://djangovinoth.pythonanywhere.com/labhome/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinition.Login.enterTheUrl(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1632623100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "click the login link",
+            "match": {
+              "location": "stepDefinition.Login.clickTheLoginLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 230858900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "enter the username \"SELVAAMOJO\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELVAAMOJO\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Login.enterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.ArithmeticException: / by zero\r\n\tat stepDefinition.Login.enterThePassword(Login.java:89)\r\n\tat ✽.enter the password \"SELVAM@1995\"(file:///C:/Users/SELVAAMOJO/eclipse-workspace/G1_ScreenShot/src/test/resources/Login.feature:27)\r\n",
+              "duration": 999700,
+              "status": "failed"
+            },
+            "line": 27,
+            "name": "enter the password \"SELVAM@1995\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SELVAM@1995\"",
+                  "offset": 19
+                }
+              ],
+              "location": "stepDefinition.Login.enterThePassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001200,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "click the login button",
+            "match": {
+              "location": "stepDefinition.Login.clickTheLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "verify login success or not",
+            "match": {
+              "location": "stepDefinition.Login.verifyLoginSuccessOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InValidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "validate the login for Django page",
+    "description": "",
+    "id": "validate-the-login-for-django-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

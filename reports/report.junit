@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.668">
+    <testcase classname="validate the login for Django page" name="validate login feature of Django with proper credentials" time="8.708">
+        <failure message="/ by zero" type="java.lang.ArithmeticException"><![CDATA[Given check the network.....................................................passed
+Given verify the excel......................................................passed
+Given open the browser "chrome".............................................passed
+When enter the url "https://djangovinoth.pythonanywhere.com/labhome/".......passed
+And click the login link....................................................passed
+When enter the username "SELVAAMOJO"........................................passed
+And enter the password "SELVAM@1995"........................................failed
+And click the login button..................................................skipped
+Then verify login success or not............................................skipped
+
+StackTrace:
+java.lang.ArithmeticException: / by zero
+	at stepDefinition.Login.enterThePassword(Login.java:89)
+	at ✽.enter the password "SELVAM@1995"(file:///C:/Users/SELVAAMOJO/eclipse-workspace/G1_ScreenShot/src/test/resources/Login.feature:15)
+]]></failure>
+    </testcase>
+    <testcase classname="validate the login for Django page" name="validate login feature of Django with inproper credentials" time="7.304">
+        <failure message="/ by zero" type="java.lang.ArithmeticException"><![CDATA[Given check the network.....................................................passed
+Given verify the excel......................................................passed
+Given open the browser "chrome".............................................passed
+When enter the url "https://djangovinoth.pythonanywhere.com/labhome/".......passed
+And click the login link....................................................passed
+When enter the username "SELVAAMOJO"........................................passed
+And enter the password "SELVAM@1995"........................................failed
+And click the login button..................................................skipped
+Then verify login success or not............................................skipped
+
+StackTrace:
+java.lang.ArithmeticException: / by zero
+	at stepDefinition.Login.enterThePassword(Login.java:89)
+	at ✽.enter the password "SELVAM@1995"(file:///C:/Users/SELVAAMOJO/eclipse-workspace/G1_ScreenShot/src/test/resources/Login.feature:27)
+]]></failure>
+    </testcase>
+</testsuite>
